@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: linear-gradient(to right, #000000, #ffffff); /* Gradient colors for header */
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            background: linear-gradient(to right, #ffffff, #000000); /* Gradient colors for navigation */
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav a{
+            color: black;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .product-image {
+            flex: 1;
+            padding: 20px;
+            width: 50%;
+        }
+        .dumbble{
+            height: 500px;
+            margin-left: 100px;
+        }
+
+        .product-info {
+            flex: 1;
+            width: 50%;
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .buy-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .buy-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Product Website</h1>
+    </header>
+    <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="product-image">
+            <img src="610UFeZyyBL.jpg" class="dumbble" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h2>Flexnest Adjustable Iron Dumbbells Set, Designed-in-Germany, Easy Weight Adjustment (2.5Kg-24Kg), Home Workout, Gym Exercise Set For Men & Women, 24Kg, Set of 2 (Black)</h2>
+            <p>Brand	:Flexnest<br>
+                Colour	    :  Black<br>
+                Item Weight	:  48 Kilograms<br>
+                Material	:  Neoprene, Rubber<br>
+                Special Feature : Adjustable</p>
+            <p>Price: -56% ₹17,997</p>
+            <a href="https://www.amazon.in/Flexnest-Adjustable-Dumbbells-2-5Kg-24Kg-Adjustment/dp/B09J8Y5RY6/ref=lp_62334698031_1_5?pf_rd_p=9e034799-55e2-4ab2-b0d0-eb42f95b2d05&pf_rd_r=A3Q1DK5NN0GABAW5GQJZ&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1" class="buy-button">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>
